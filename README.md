@@ -12,8 +12,8 @@ ROADMAP:
         Language:solidity(for the smartcontract),css,html,javascript
         Link back end:Metamask
 
-        ![Architecture 1](smartcontract/public/architecture/images/architecture1.png)
-        ![Architecture 2](smartcontract/public/architecture/images/architecture2.png)
+        ![Architecture 1](https://iantezz.github.io/RealEstate-Ecosystem/images/architecture1.png)
+        ![Architecture 2](https://iantezz.github.io/RealEstate-Ecosystem/images/architecture2.png)
 
 Requirements For Initial Setup
     Install Nodejs
@@ -26,12 +26,12 @@ Run tests
 Run deployment
     truffle deploy --network sepolia
     (in a separate terminal): npx hardhat run ./scripts/deploy.js --network localhost
+       ![Screenshot 1](https://iantezz.github.io/RealEstate-Ecosystem/smartcontract/public/abcs/screenshot1.png)
+       ![Screenshot 2](https://iantezz.github.io/RealEstate-Ecosystem/smartcontract/public/abcs/screenshot2.png)
+       ![Screenshot 3](https://iantezz.github.io/RealEstate-Ecosystem/smartcontract/public/abcs/screenshot3.png)
+       ![Screenshot 4](https://iantezz.github.io/RealEstate-Ecosystem/smartcontract/public/abcs/screenshot4.png)
+       ![Screenshot 5](https://iantezz.github.io/RealEstate-Ecosystem/smartcontract/public/abcs/screenshot5.png)
 
-    ![Screenshot 1](smartcontract/public/abcs/images/screenshot1.png)
-    ![Screenshot 2](smartcontract/public/abcs/images/screenshot2.png)
-    ![Screenshot 3](smartcontract/public/abcs/images/screenshot3.png)
-    ![Screenshot 4](smartcontract/public/abcs/images/screenshot4.png)
-    ![Screenshot 5](smartcontract/public/abcs/images/screenshot5.png)
 
 Credits:
     Metamask
