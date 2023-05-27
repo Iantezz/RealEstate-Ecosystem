@@ -12,8 +12,8 @@ ROADMAP:
         Language:solidity(for the smartcontract),css,html,javascript
         Link back end:Metamask
 
-        ![Architecture 1](https://iantezz.github.io/RealEstate-Ecosystem/images/architecture1.png)
-        ![Architecture 2](https://iantezz.github.io/RealEstate-Ecosystem/images/architecture2.png)
+        ![Architecture 1](https://iantezz.github.io/RealEstate-Ecosystem/smartcontract/public/architecture1.png)
+        ![Architecture 2](https://iantezz.github.io/RealEstate-Ecosystem/smartcontract/public/architecture2.png)
 
 Requirements For Initial Setup
     Install Nodejs
