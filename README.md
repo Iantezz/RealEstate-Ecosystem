@@ -11,6 +11,10 @@ ROADMAP:
         Test:truffle, hardhat
         Language:solidity(for the smartcontract),css,html,javascript
         Link back end:Metamask
+
+        ![Architecture 1](smartcontract/public/architecture/images/architecture1.png)
+        ![Architecture 2](smartcontract/public/architecture/images/architecture2.png)
+
 Requirements For Initial Setup
     Install Nodejs
 Setting Up:
@@ -22,6 +26,13 @@ Run tests
 Run deployment
     truffle deploy --network sepolia
     (in a separate terminal): npx hardhat run ./scripts/deploy.js --network localhost
+
+    ![Screenshot 1](smartcontract/public/abcs/images/screenshot1.png)
+    ![Screenshot 2](smartcontract/public/abcs/images/screenshot2.png)
+    ![Screenshot 3](smartcontract/public/abcs/images/screenshot3.png)
+    ![Screenshot 4](smartcontract/public/abcs/images/screenshot4.png)
+    ![Screenshot 5](smartcontract/public/abcs/images/screenshot5.png)
+
 Credits:
     Metamask
     Sepolia Faucet
