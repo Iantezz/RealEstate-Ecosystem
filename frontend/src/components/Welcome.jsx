@@ -8,6 +8,28 @@ import { Loader } from ".";
 
 const companyCommonStyles = "min-h-[70px] sm:px-0 px-2 sm:min-w-[120px] flex justify-center items-center border-[0.5px] border-gray-400 text-sm font-light text-white";
 
+//Define the connectWallet function
+const connectWallet = async () => {
+  try {
+    // Check if the browser has access to the Ethereum provider
+    if (window.ethereum) {
+      // Request access to the user's Ethereum accounts
+      await window.ethereum.request({ method: 'eth_requestAccounts' });
+      
+      // Wallet connected successfully
+      console.log('Wallet connected!');
+      
+      // Add your custom logic for handling the wallet connection here
+      
+    } else {
+      // If the browser doesn't have access to the Ethereum provider (e.g., MetaMask is not installed)
+      console.error('Please install MetaMask or use a compatible Ethereum browser.');
+    }
+  } catch (error) {
+    // Handle any errors that occurred during the wallet connection
+    console.error('Failed to connect the wallet:', error);
+  }
+};
 
 
 const Welcome = () => {
@@ -34,7 +56,7 @@ const Welcome = () => {
                 Connect Wallet
               </p>
             </button>
-          )
+          
 
           <div className="grid sm:grid-cols-3 grid-cols-2 w-full mt-10">
             <div className={`rounded-tl-2xl ${companyCommonStyles}`}>
@@ -54,8 +76,8 @@ const Welcome = () => {
           </div>
         </div>
 
-        <div className="flex flex-col flex-1 items-center justify-start w-full mf:mt-0 mt-10">
-          <div className="p-3 flex justify-end items-start flex-col rounded-xl h-40 sm:w-72 w-full my-5 eth-card .white-glassmorphism ">
+        <div className="p-3 flex justify-end items-start flex-col rounded-xl h-40 sm:w-72 w-full my-5 eth-card .white-glassmorphism">
+          <img src="https://github.com/Iantezz/RealEstate-Ecosystem/assets/121291003/c7766cf0-0319-4bfd-bbeb-e686404277c8" alt="Modern Bungalow" className="w-full h-full object-cover" />
             <div className="flex justify-between flex-col w-full h-full">
               <div className="flex justify-between items-start">
                 <div className="w-10 h-10 rounded-full border-2 border-white flex justify-center items-center">
@@ -95,7 +117,7 @@ const Welcome = () => {
           </div>
         </div>
       </div>
-    </div>
+  </div>
   );
 };
 
