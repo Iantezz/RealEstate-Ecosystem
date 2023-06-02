@@ -19,7 +19,7 @@
 ## Introduction
 The Real Estate Ecosystem leverages the power of blockchain and smart contracts to create an ecosystem for real estate transactions. It eliminates the need for intermediaries, reduces costs, and enhances transparency and security in the process.
 
-By utilizing Web 3 technologies, this dApp provides various features such as property listing, smart contracts for escrow and title transfers, decentralized identity verification, and transparent property ownership history. It aims to streamline the real estate buying and selling process and make it accessible to a wider audience.
+By utilizing Web 3 technologies, this dApp provides various features such as property listing, smart contracts for ownership and title transfers, decentralized identity verification, and transparent property ownership history. It aims to streamline the real estate buying and selling process and make it accessible to a wider audience.
 
 ## Features
 The Real Estate Ecosystem offers the following key features:
